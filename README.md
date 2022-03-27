@@ -2,7 +2,7 @@
 - Chadwm installation optimized for archlinux users.
 - Read the main guide [here](https://github.com/siduck/chadwm#setup).
 
-### One click install 
+### <p align=center> One click install </p>
 ```
 bash <(curl -sL da.gd/chadwmarch) | sudo
 ```
