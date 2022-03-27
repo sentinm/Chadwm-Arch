@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is just an example!
 # add your autostart stuffs here
@@ -9,5 +9,5 @@ xrdb merge ~/.config/chadwm/.Xresources &
 feh --bg-fill ~/Pictures/pink_cat.png &
 
 # run bar script and dwm ( do not remove this )
-~/.config/chadwm/scripts/bar &
+~/.config/chadwm/scripts/./bar.sh &
 dwm
