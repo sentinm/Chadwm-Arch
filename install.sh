@@ -38,7 +38,7 @@ cd ~/.config/chadwm/chadwm
 
 make_run () {
          CONF=~/.config/chadwm/chadwm/config.h
-         if [[ -d "$CONF" ]]; then
+         if [[ -d $CONF ]]; then
 		 rm -rf $CONF
 		 echo "Configuration file already exists. Deleting..."
                  make install
