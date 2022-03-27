@@ -9,5 +9,5 @@ xrdb merge ~/.config/chadwm/.Xresources &
 feh --bg-fill ~/Pictures/pink_cat.png &
 
 # run bar script and dwm ( do not remove this )
-~/.config/chadwm/scripts/bar.sh &
+~/.config/chadwm/scripts/bar &
 dwm
