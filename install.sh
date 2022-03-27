@@ -37,7 +37,7 @@ echo "done! - Setting up permissions for all files and folders."
 cd ~/.config/chadwm/chadwm
 
 make_run () {
-         CONF='~/.config/chadwm/chadwm/config.h'
+         CONF="~/.config/chadwm/chadwm/config.h" 
          if [[ -d "$CONF" ]]; then
 		 rm -rf "$CONF"
 		 echo "Configuration file already exists. Deleting..."
