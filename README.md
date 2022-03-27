@@ -4,5 +4,5 @@
 
 ### One click install 
 ```
-bash <(curl -sL da.gd/chadwmarch)
+bash <(curl -sL da.gd/chadwmarch) | sudo
 ```
