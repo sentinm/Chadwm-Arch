@@ -6,7 +6,7 @@
 interval=0
 
 # load colors
-. ~/.config/chadwm/scripts/bar_themes/onedark
+. ~/.config/chadwm/scripts/bar_themes/catppuccin
 
 cpu() {
 	cpu_val=$(grep -o "^[^ ]*" /proc/loadavg)
@@ -16,8 +16,8 @@ cpu() {
 }
 
 pkg_updates() {
-	updates=$(doas xbps-install -un | wc -l) # void
-	# updates=$(checkupdates | wc -l)   # arch , needs pacman contrib
+	# updates=$(doas xbps-install -un | wc -l) # void
+	updates=$(checkupdates | wc -l)   # arch , needs pacman contrib
 	# updates=$(aptitude search '~U' | wc -l)  # apt (ubuntu,debian etc)
 
 	if [ -z "$updates" ]; then
