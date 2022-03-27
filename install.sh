@@ -33,4 +33,21 @@ echo "done! - Creating desktop entry for chadwm."
 chmod -R +x ~/.config/chadwm && chmod +x ~/Pictures/pink_cat.png && chmod +x /usr/share/xsessions/chadwm.desktop
 echo "done! - Setting up permissions for all files and folders."
 
+# Building and compiling dwm.
+cd ~/.config/chadwm/chadwm
+
+make_run () {
+         CONF='~/.config/chadwm/chadwm/config.h'
+         if [[ -d "$CONF" ]]; then
+		 rm -rf "$CONF"
+		 echo "Configuration file already exists. Deleting..."
+                 make install
+                 echo "done! - Building dwm."
+	 fi
+                 make install
+                 echo "done! - Building dwm."
+} 
+
+make_run
+
 echo "done! - Installation" 
