@@ -51,3 +51,4 @@ make_run () {
 make_run
 
 echo "done! - Installation" 
+sleep 2s && exit 0
