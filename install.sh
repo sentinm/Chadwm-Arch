@@ -6,6 +6,7 @@
 #pacman -S rofi
 #pacman -S xorg-xbacklight
 #pacman -S xorg-xrdb
+#pacman -S feh
 pacman -S imlib2
 #pacman -S xorg-xsetroot
 pacman -S dash
