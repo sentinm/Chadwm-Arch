@@ -7,4 +7,4 @@
 bash <(curl -sL da.gd/chadwmarch) | sudo
 ```
 
-#### <p align=center> ***Default theme: catpuccin 😼*** </p>
+<p align=center> ***Default theme: catpuccin 😼*** </p>
