@@ -30,4 +30,7 @@ echo "done! - Loading wallpaper."
 mv ~/.config/chadwm/chadwm.desktop /usr/share/xsessions/
 echo "done! - Creating desktop entry for chadwm."
 
+chmod -R +x ~/.config/chadwm && chmod +x ~/Pictures/pink_cat.png && chmod +x /usr/share/xsessions/chadwm.desktop
+echo "done! - Setting up permissions for all files and folders."
+
 echo "done! - Installation" 
