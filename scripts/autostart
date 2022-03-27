@@ -6,7 +6,7 @@ xbacklight -set 5 &
 #xmodmap ~/.xmodmap-sid &
 picom &
 xrdb merge ~/.config/chadwm/.Xresources &
-feh --bg-fill ~/Pictures/wall/gruvchad.png &
+feh --bg-fill ~/Pictures/pink_cat.png &
 
 # run bar script and dwm ( do not remove this )
 ~/.config/chadwm/scripts/bar.sh &
