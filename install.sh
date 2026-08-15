@@ -19,7 +19,7 @@ pacman -S nerd-fonts-jetbrains-mono
 # Installation
 
 cd ~/.config && git clone https://github.com/sentinm/Chadwm-Arch.git chadwm
-ech "done! - Fetching chadwm repository." 
+echo "done! - Fetching chadwm repository." 
 
 cp ~/.config/chadwm/fonts/* ~/.local/share/fonts/
 echo "done! - Copying font files." 
