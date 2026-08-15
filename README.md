@@ -11,3 +11,6 @@ bash <(curl -sL da.gd/chadwmarch) | sudo
 ```
 
 <p align=center><b> Default theme: catpuccin 😼 </b></p>
+
+> [!WARNING]
+> This repository is behind the main reposity right now. And I will make a auto rebase setup to fix that problem later. Until then this is `OUTDATED`. Use at your own risk!
